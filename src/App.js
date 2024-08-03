@@ -1,11 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Main from "./components/Main/Main";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 function App() {
   return (
     <div className="App">
-      hello gemini
-      
+      <Sidebar />
+      <Main />
     </div>
   );
 }
